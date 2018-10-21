@@ -20,15 +20,15 @@
            modelAttribute="userForm">
     <form:label path="name">Name</form:label>
     <form:input path="name"/><br/>
+    <form:errors path="name"/>
     <form:label path="age">Age</form:label>
     <form:input path="age"/><br/>
+    <form:errors path="age"/><br/>
     <form:radiobutton path="male" value="true" label="boy" />
-    <form:radiobutton path="male" value="false" label="female" /><br/>
+    <form:radiobutton path="male" value="false" label="female" />
+    <form:errors path="male"/><br/>
     <form:select path="hobby">
-        <form:option value="sport" label="Sport"/>
-        <form:option value="nature" label="Nature"/>
-        <form:option value="reading" label="Reading"/>
-        <form:option value="music" label="Music"/>
+        <form:options items="${hobbies}" itemValue="id" itemLabel="name"/>
     </form:select><br/>
 
     <form:button>Send</form:button>

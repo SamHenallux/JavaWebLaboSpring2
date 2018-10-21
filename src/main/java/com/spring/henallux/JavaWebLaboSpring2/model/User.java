@@ -1,9 +1,14 @@
 package com.spring.henallux.JavaWebLaboSpring2.model;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class User {
 
+    @NotNull
     private String name;
     private Integer age;
+    @NotNull
     private Boolean male;
     private String hobby;
 
