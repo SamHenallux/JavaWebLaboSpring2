@@ -1,4 +1,4 @@
-package com.spring.henallux.JavaWebLaboSpring.model;
+package com.spring.henallux.JavaWebLaboSpring2.model;
 
 public class MagicKeyForm {
     private String magicKey;

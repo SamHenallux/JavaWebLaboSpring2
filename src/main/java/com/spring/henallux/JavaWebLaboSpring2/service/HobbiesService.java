@@ -1,6 +1,6 @@
-package com.spring.henallux.JavaWebLaboSpring.service;
+package com.spring.henallux.JavaWebLaboSpring2.service;
 
-import com.spring.henallux.JavaWebLaboSpring.model.Hobby;
+import com.spring.henallux.JavaWebLaboSpring2.model.Hobby;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

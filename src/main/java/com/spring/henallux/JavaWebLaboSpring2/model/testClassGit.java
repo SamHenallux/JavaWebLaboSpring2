@@ -1,4 +1,4 @@
-package com.spring.henallux.JavaWebLaboSpring.model;
+package com.spring.henallux.JavaWebLaboSpring2.model;
 
 import java.util.Objects;
 

@@ -1,7 +1,7 @@
-package com.spring.henallux.JavaWebLaboSpring.controller;
+package com.spring.henallux.JavaWebLaboSpring2.controller;
 
 
-import com.spring.henallux.JavaWebLaboSpring.model.MagicKeyForm;
+import com.spring.henallux.JavaWebLaboSpring2.model.MagicKeyForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
